@@ -1,0 +1,17 @@
+---
+bind_zone_master_server_ip: 192.168.56.16
+bind_zone_name: lab.local
+bind_zone_networks:
+  - '192.168'
+  - '10.1'
+bind_zone_name_servers:
+  - ns53.lab.local
+bind_zone_hosts:
+  - name: ns53.lab.local
+    ip: 192.168.56.16
+    aliases:
+      - ns
+bind_listen_ipv4:
+  - any
+bind_allow_query:
+  - any   

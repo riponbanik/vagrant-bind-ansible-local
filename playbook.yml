@@ -1,0 +1,9 @@
+---
+- name: Install and Configure bind
+  hosts: all
+
+  vars_files:
+    - vars.yaml
+
+  roles:    
+    - bertvv.bind
