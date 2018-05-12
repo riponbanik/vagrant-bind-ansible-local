@@ -27,4 +27,9 @@ To update the Ansible Bind Role, use the commands below  -
 vagrant halt
 ```
 
+## Cleanup
+```
+vagrant destroy -f
+```
+
 
